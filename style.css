@@ -23,12 +23,12 @@
     cursor: pointer;
   }
 
-  .her{
+  .hero-photo-2{
     width: 100%;
     margin-block: 50px;
   }
 
-  .herl, .herr{
+  .hero-photo-1, .herr{
     display: none;
   }
 
@@ -45,7 +45,7 @@
     margin-bottom: 40px;
   }
 
-  button.green1{
+  button.first-button{
     gap: none;
     width: 50%;
     background-color: rgb(66, 143, 143);
@@ -55,19 +55,19 @@
       font-weight: bold;
     }
 
-   button.purple, .fbut{
+   button.second-button, .footer-but{
      font-weight: bold;
      width: 40%;
     background-color: rgb(130, 95, 163);
     }
 
-  .vline{
+  .vertical-line{
     margin-top: 90px;
   border: solid 1px rgb(207, 207, 207, 0.5);
   height: 90px;
   }
 
-  .n1, .n2 {
+  .first-number, .second-number{
     border: rgb(207, 207, 207) solid 1px;
     background-color: white;
     width: 70px;
@@ -116,7 +116,7 @@
     margin-inline: auto;
   }
 
-  .n2{
+  .second-number{
     position: relative;
     z-index: 1;  }
 
@@ -157,14 +157,14 @@
     .wrapper{
       width: 100%;
     } 
-    .her{
-      width: 1200px;
+    .hero-photo-2{
+      /* width: 1200px; */
     }
     .subhero{
       width: 600px;
       margin-inline: auto;
     }
-    .but{
+    .hero-button{
       display: flex;
       
     }
@@ -177,8 +177,8 @@
     h2{
       width: 55%;
     }
-    .mid{
-      width: 950px;
+    .main-text{
+      /* width: 950px; */
       display: grid;
       justify-content: center;
       align-items: center;
@@ -187,11 +187,11 @@
       width: 100%;
       background-repeat: no-repeat;
     }
-    .fdiv{
+    .footer{
     width: 600px;
     margin-inline: auto;
     }
-    .fbut{
+    .footer-but{
       width: 30%;
     }
   }
@@ -204,24 +204,25 @@
     .header{
       display: flex;
       flex-direction: row;
+      width: 100%;
     }
-    .her{
+    .hero-photo-2{
       display: none;
     }
-    .herl, .herr{
-      width: 150%;
+    .hero-photo-1, .herr{
+      /* width: 150%; */
     }
   
-    .herl{
+    .hero-photo-1{
       display: flex;
-      /* margin-block: 50px; */
+      margin-block: 50px;
       width: 100%;
       margin-left: -25%;
     }
 
     .herr{
       display: flex;
-      /* margin-block: 25px; */
+      margin-block: 25px;
       width: 100%;
       margin-left: 25%;
     }
